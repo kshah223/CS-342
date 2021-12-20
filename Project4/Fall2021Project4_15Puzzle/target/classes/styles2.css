@@ -1,0 +1,88 @@
+.textLabel {
+    -fx-fill: #333;
+    -fx-font-family: Montserrat;
+    -fx-font-size: 40px;
+}
+
+
+.buttonRight {
+    -fx-font-family: SansSerif;
+    -fx-cursor: pointer;
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-text-fill: #fff;
+    -fx-min-width: 250px;
+
+    -fx-padding: 1em 2em;
+    -fx-border-width: 2px;
+    -fx-border-color: #1B1B1B;
+    -fx-border-style: solid;
+    -fx-border-radius: 1em;
+    -fx-background-color: #1B1B1B;
+    -fx-background-radius: 1em;
+}
+
+.buttonRight:hover {
+    -fx-background-color: #1B1B1B;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian , #000000 , 1, 10, 0, 0);
+    -fx-border-color: #1B1B1B;
+    -fx-border-style: solid;
+    -fx-border-radius: 1em;
+    -fx-background-radius: 1em;
+    -fx-text-fill: #fff;
+}
+
+.buttonRight:pressed {
+    -fx-background-color: #fff;
+    -fx-text-fill: #333;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #fff;
+    -fx-border-style: solid;
+    -fx-border-radius: 1em;
+    -fx-background-radius: 1em;
+}
+
+.background {
+    -fx-background-image: url("back.jpg");
+}
+
+.menu {
+    -fx-background-color: none;
+    -fx-font-family: Montserrat;
+    -fx-font-size: 14px;
+    -fx-min-height: 40px;
+}
+
+.menu:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-background-radius: 1em;
+    -fx-text-fill: #fff;
+}
+
+.menu-item {
+    -fx-background-color: #fff;
+    -fx-background-radius: 1em;
+    -fx-border-style: none;
+    -fx-text-fill: #1b1b1b;
+}
+
+.menu-item:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-background-radius: 1em;
+    -fx-text-fill: #fff;
+}
+
+
+.grid-pane {
+    -fx-background-color: #FFDE59;
+    -fx-background-radius: 0.5em;
+    -fx-padding: 0.5em;
+}
+
+.game-button {
+    -fx-background-color: #FFF8E8;
+    -fx-border-radius: 1em;
+    -fx-background-radius: 1em;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerIntroGUI">
+   <children>
+      <Button fx:id="connect_server" layoutX="258.0" layoutY="175.0" mnemonicParsing="false" onAction="#connect_thread" text="CONNECT" />
+      <TextField fx:id="port_input" layoutX="219.0" layoutY="117.0" promptText="PORT" />
+   </children>
+</Pane>
+
+<!--<VBox prefHeight="400.00" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"-->
+<!--      fx:controller="ServerIntroGUI">-->
+
+<!--   <Label text="I love bacon"/>-->
+<!--   <Button text="Submit"/>-->
+
+<!--</VBox>-->

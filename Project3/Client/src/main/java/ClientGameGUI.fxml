@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientGameGUI">
+   <children>
+      <Button fx:id="draw_button" layoutX="435.0" layoutY="523.0" mnemonicParsing="false" onAction="#draw_card" text="Draw" />
+      <Label layoutX="108.0" layoutY="496.0" text="Enter Bet Amount" />
+      <ChoiceBox fx:id="chip_values" layoutX="108.0" layoutY="523.0" prefHeight="25.0" prefWidth="43.0" />
+      <ChoiceBox fx:id="num_chips" layoutX="164.0" layoutY="523.0" prefHeight="25.0" prefWidth="43.0" />
+      <Label fx:id="bet_label" layoutX="337.0" layoutY="401.0" text="Bets">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="player_bet" layoutX="124.0" layoutY="421.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="61.0" text="Player" />
+      <Button fx:id="tie_bet" layoutX="320.0" layoutY="421.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="61.0" text="Tie" />
+      <Button fx:id="banker_bet" layoutX="511.0" layoutY="421.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="61.0" text="Banker" />
+      <Label fx:id="player_label" layoutX="136.0" layoutY="158.0" text="Player">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ImageView fx:id="player_card1" fitHeight="135.0" fitWidth="85.0" layoutX="51.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="player_card2" fitHeight="135.0" fitWidth="85.0" layoutX="173.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="player_card3" fitHeight="80.0" fitWidth="140.0" layoutX="85.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="banker_label" layoutX="523.0" layoutY="158.0" text="Banker">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="banker_card1" fitHeight="135.0" fitWidth="85.0" layoutX="438.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="banker_card2" fitHeight="135.0" fitWidth="85.0" layoutX="565.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="banker_card3" fitHeight="80.0" fitWidth="140.0" layoutX="478.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="quit_game" layoutX="684.0" layoutY="64.0" mnemonicParsing="false" text="Quit" />
+      <Label fx:id="balance_label" layoutX="30.0" layoutY="65.0" text="Balance :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="current_bet_label" layoutX="30.0" layoutY="85.0" text="Current bet :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total_win_label" layoutX="30.0" layoutY="105.0" text="Total winnings :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="round_win_label" layoutX="30.0" layoutY="125.0" text="Round winnings :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Text fx:id="bal_amt_text" layoutX="94.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance Amt">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cur_bet_text" layoutX="114.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Bet Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="total_win_text" layoutX="133.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Win Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="round_win_text" layoutX="144.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Round Win Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <MenuBar fx:id="game_menu_bar" disable="true" prefHeight="25.0" prefWidth="106.0">
+        <menus>
+            <Menu fx:id="game_menu" mnemonicParsing="false" text="Game Menu">
+              <items>
+                <MenuItem fx:id="game_menu_rules" mnemonicParsing="false" text="Rules" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>

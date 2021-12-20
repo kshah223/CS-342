@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientIntroGUI">
+   <children>
+      <Button fx:id="connect_game" layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#connect_main_server" text="Connect" />
+      <TextField fx:id="input_ip" layoutX="230.0" layoutY="107.0" promptText="Enter IP" />
+      <TextField fx:id="input_port" layoutX="229.0" layoutY="151.0" promptText="Enter Port" />
+   </children>
+</Pane>

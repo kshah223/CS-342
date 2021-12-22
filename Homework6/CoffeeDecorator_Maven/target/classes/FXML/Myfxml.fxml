@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextArea?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+              fx:id = "root2" styleClass="border" fx:controller = "MyController">
+	<!-- TODO Add Nodes -->
+	<left>
+		<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox" fx:id = "root" spacing="12">
+			<Button fx:id = "milk" text = "Milk" onAction = "#addMilk"/>
+			<Button fx:id = "sugar" text = "Sugar" onAction = "#addSugar"/>
+			<Button fx:id = "cream" text = "Cream" onAction = "#addCream"/>
+			<Button fx:id = "extraShot" text = "Extra Shot" onAction = "#addExtraShot"/>
+			<Button fx:id = "flavouredSyrup" text = "Flavoured Syrup" onAction = "#addFlavouredSyrup"/>
+			<Button fx:id = "placeOrder" text = "Place Order" onAction = "#placeOrder"/>
+			<Button fx:id = "reset" text = "Reset" onAction = "#addReset"/>
+		</VBox>
+	</left>
+	
+    <right><TextArea xmlns:fx="http://javafx.com/fxml/1" fx:id="customerCopy" styleClass="text-area" text = "Order Details: &#10;Black Coffee: $3.99" editable = "false"/></right>
+	
+	
+</BorderPane>
